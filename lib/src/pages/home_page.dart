@@ -34,13 +34,15 @@ class HomePage extends StatelessWidget {
         ],
       ),
       body: Container(
+        // color: Colors.red,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: <Widget>[
-            _swiperTarjetas(),
-            _footer(context)
-          ],
-        ),
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: <Widget>[
+          // SizedBox(height: 30),
+          _swiperTarjetas(),
+          _footer(context)
+        ],
+          ),
       )
        
     );
@@ -83,7 +85,7 @@ class HomePage extends StatelessWidget {
         children: <Widget>[
           Container(
             padding: EdgeInsets.only(left: 20.0),
-            child: Text('Populares', style: Theme.of(context).textTheme.subhead  )
+            child: Text('Populares', style: Theme.of(context).textTheme.subtitle1  )
           ),
           SizedBox(height: 5.0),
 

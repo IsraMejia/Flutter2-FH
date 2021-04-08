@@ -30,7 +30,7 @@ class MovieHorizontal extends StatelessWidget {
 
 
     return Container(
-      height: _screenSize.height * 0.2,
+      height: _screenSize.height * 0.3,
       child: PageView.builder(
         pageSnapping: false,
         controller: _pageController,
